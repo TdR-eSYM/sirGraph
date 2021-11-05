@@ -55,7 +55,7 @@ def simulate(val):
 
         iChange = -sChange - rChange
         i.append(i[t]+iChange)
-
+    # I'm sorry
     ax.clear()
     ax.plot(s, label = "Susceptible")
     ax.plot(i, label = "Infected")
